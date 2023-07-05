@@ -12,13 +12,13 @@ body {
 }
 
 .box {
-    background-color: #f0ecea;
+    background-color: #ffffff;
     aspect-ratio: 1/1;
     width: calc(100% / 10);
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.7rem;
+    font-size: 1.4rem;
 }
 
 .bg-gray {

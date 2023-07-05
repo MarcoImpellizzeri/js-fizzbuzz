@@ -1,10 +1,10 @@
-const boxContainer = document.querySelector(".box-container")
+const boxContainer = document.querySelector(".box-container");
 const totalBox = 100;
 
 for (let i = 1; i <= totalBox; i++) {
     let singleBox = document.createElement("div");
-    singleBox.classList.add("box", "m-3");
-    singleBox.innerHTML = i.toString()
+    singleBox.classList.add("box", "m-3" , "p-1");
+    singleBox.innerHTML = i.toString();
 
     if ((i % 3 === 0) && (i % 5 === 0)) {
         singleBox.classList.add("bg-red");
